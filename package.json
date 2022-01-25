@@ -16,9 +16,17 @@
     "url": "https://github.com/automata-labs/dsg/issues"
   },
   "homepage": "https://github.com/automata-labs/dsg#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.3.3"
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.28.0",
+    "typescript": "^4.5.5"
   }
 }
