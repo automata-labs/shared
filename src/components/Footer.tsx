@@ -25,7 +25,7 @@ export default function Footer() {
         maxWidth: 652,
         padding: 20,
       }}>
-        <a href="https://automata.fi">Automata Labs Inc.</a>
+        <a css={aCss} href="https://automata.fi">Automata Labs Inc.</a>
         <div css={{
           display: 'flex',
           flex: 1,
