@@ -5,7 +5,6 @@ const FooterStyled = styled.footer({
   borderTop: '1px solid rgba(255, 255, 255, 0.08)',
   bottom: 0,
   fontSize: 13,
-  position: 'absolute',
   width: '100%',
 });
 
