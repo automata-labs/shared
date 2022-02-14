@@ -17,7 +17,11 @@ type NumericalInputProps = {
 function NumericalInput({ value, setter, placeholder, prependSymbol, ...rest }: NumericalInputProps) {
   const enforcer = (nextUserInput: string) => {
     if (nextUserInput === '' || inputRegex.test(escapeRegExp(nextUserInput))) {
-      setter(nextUserInput);
+      if (nextUserInput === '.') {
+        setter('0.');
+      } else {
+        setter(nextUserInput);
+      }
     }
   }
 
